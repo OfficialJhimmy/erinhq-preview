@@ -258,7 +258,7 @@ export default function Pillars() {
   };
 
   return (
-    <section aria-labelledby="pillars-heading">
+    <section id="pillars" aria-labelledby="pillars-heading">
       <h2 id="pillars-heading" className="sr-only">
         The four pillars: health, fitness, beauty, and style
       </h2>
