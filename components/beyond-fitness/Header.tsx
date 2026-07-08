@@ -29,7 +29,7 @@ export default function Header() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="#hero" className="relative h-10 w-32">
             <Image
-              src="/beyond-fitness/beyond-logo.png"
+              src="/images/beyond-fitness/beyond.jpeg"
               alt="BEYOND Fitness"
               fill
               className="object-contain object-left"
@@ -110,7 +110,18 @@ export default function Header() {
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <ul className="mt-16 flex flex-col gap-6">
+        <button
+          onClick={() => setMenuOpen(false)}
+          aria-label="Close menu"
+          className="ml-auto text-white transition-colors hover:text-beyond-gold"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <line x1="2" y1="2" x2="18" y2="18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            <line x1="18" y1="2" x2="2" y2="18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
+        </button>
+
+        <ul className="mt-10 flex flex-col gap-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
