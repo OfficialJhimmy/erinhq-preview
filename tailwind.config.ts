@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -16,6 +17,11 @@ const config: Config = {
         // Scoped to Ebele's World.
         "ebele-display": ["var(--font-ebele-display)", "serif"],
         "ebele-sans": ["var(--font-ebele-sans)", "sans-serif"],
+        // Scoped to Damilola Balogun.
+        "damilola-display": ["var(--font-damilola-display)", "serif"],
+        "damilola-sans": ["var(--font-damilola-sans)", "sans-serif"],
+        "damilola-signature": ["var(--font-damilola-signature)", "cursive"],
+        "damilola-mono": ["var(--font-damilola-mono)", "monospace"],
       },
       colors: {
         // BEYOND Fitness brand palette. Prefixed so it doesn't collide
@@ -35,6 +41,15 @@ const config: Config = {
           moss: "#7C8B6F", // secondary accent, health/fitness pillar
           parchment: "#EDE6DE", // light neutral for light-surface sections
         },
+        // Damilola Balogun brand palette. Both modes coexist as fixed
+        // tokens; components pair them with the dark: variant rather
+        // than relying on CSS custom properties.
+        damilola: {
+          graphite: "#111111", // dark mode background / light mode primary text
+          bone: "#FAF8F4", // light mode background
+          "gold-dark": "#D4AF6A", // accent in dark mode, brighter for contrast
+          "bronze-light": "#B68A35", // accent in light mode
+        },
       },
       keyframes: {
         float: {
@@ -45,10 +60,15 @@ const config: Config = {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         float: "float 6s ease-in-out infinite",
         fadeIn: "fadeIn 0.6s ease-out",
+        marquee: "marquee 30s linear infinite",
       },
     },
   },
