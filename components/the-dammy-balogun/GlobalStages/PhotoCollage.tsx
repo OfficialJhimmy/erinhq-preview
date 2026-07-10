@@ -9,7 +9,7 @@ const photos: CollageImage[] = [
   { src: "/images/the-dammy-balogun/IMG_6209.jpg", alt: "Damilola Balogun contributing to a summit panel", className: "left-0 top-4 h-[48%] w-[56%]" },
   { src: "/images/the-dammy-balogun/IMG_6203.jpg", alt: "Damilola Balogun at a boardroom session", className: "right-0 top-0 h-[43%] w-[42%]" },
   { src: "/images/the-dammy-balogun/IMG_6207.jpg", alt: "Damilola Balogun speaking on stage in Ghana", className: "bottom-0 left-[7%] h-[43%] w-[50%]" },
-  { src: "/images/the-dammy-balogun/IMG_6212.jpg", alt: "Damilola Balogun at an international energy event", className: "bottom-0 right-0 h-[50%] w-[39%]" },
+  { src: "/images/the-dammy-balogun/nigeria.jpg", alt: "Damilola Balogun at an international energy event", className: "bottom-0 right-0 h-[50%] w-[39%]" },
 ];
 
 export default function PhotoCollage() {

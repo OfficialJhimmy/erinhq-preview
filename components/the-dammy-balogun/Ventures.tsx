@@ -59,7 +59,7 @@ export default function Ventures() {
           />
           <VentureCard
             index={1}
-            name="POWERING\nLAGOS SMEs"
+            name="POWERING LAGOS SMEs"
             eyebrow="Clean Energy Initiative"
             role="Project Lead"
             description="Driving clean energy adoption for small and medium businesses through solar demand aggregation across Lagos market clusters."

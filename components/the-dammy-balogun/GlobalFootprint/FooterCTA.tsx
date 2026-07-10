@@ -3,13 +3,13 @@ import { ArrowDown } from "lucide-react";
 
 export default function FooterCTA() {
   return (
-    <div className="mt-16 flex flex-col items-start justify-between gap-10 border-t border-white/15 pt-10 sm:flex-row sm:items-end">
+    <div className="mt-10 flex flex-col items-start justify-between gap-8 border-t border-white/15 pt-8 sm:mt-16 sm:flex-row sm:items-end sm:gap-10 sm:pt-10">
       <p className="max-w-xs font-damilola-display text-2xl font-medium leading-tight text-damilola-bone">
         Every destination expanded{" "}
         <span className="text-damilola-gold-dark">the mission.</span>
       </p>
 
-      <div className="text-right">
+      <div className="sm:text-right">
         <p className="font-damilola-sans text-[10px] uppercase tracking-widest text-white/40">
           Next
         </p>

@@ -32,12 +32,12 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   // Initialized from whatever class the inline script (in layout.tsx)
   // already applied to the wrapper before hydration, so this doesn't
   // cause a mismatch or a flash of the wrong theme.
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     const root = document.getElementById(ROOT_ID);
-    if (root?.classList.contains("light")) {
-      setTheme("light");
+    if (root?.classList.contains("dark")) {
+      setTheme("dark");
     }
   }, []);
 

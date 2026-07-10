@@ -25,7 +25,7 @@ export default function Footer() {
             DHB
           </Link>
 
-          <ul className="flex flex-wrap gap-x-8 gap-y-3">
+          <ul className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-8 sm:gap-y-3">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
