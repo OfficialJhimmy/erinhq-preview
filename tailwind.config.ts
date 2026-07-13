@@ -22,6 +22,9 @@ const config: Config = {
         "damilola-sans": ["var(--font-damilola-sans)", "sans-serif"],
         "damilola-signature": ["var(--font-damilola-signature)", "cursive"],
         "damilola-mono": ["var(--font-damilola-mono)", "monospace"],
+        // Scoped to Spick & Span.
+        "spicknspan-display": ["var(--font-spicknspan-display)", "serif"],
+        "spicknspan-sans": ["var(--font-spicknspan-sans)", "sans-serif"],
       },
       colors: {
         // BEYOND Fitness brand palette. Prefixed so it doesn't collide
@@ -49,6 +52,18 @@ const config: Config = {
           bone: "#FAF8F4", // light mode background
           "gold-dark": "#D4AF6A", // accent in dark mode, brighter for contrast
           "bronze-light": "#B68A35", // accent in light mode
+        },
+        // Spick & Span brand palette. Single-mode (no light/dark toggle
+        // requested); "dark" is available as a background for specific
+        // sections that want contrast, not a global theme switch.
+        spicknspan: {
+          bg: "#F7F4EE", // primary background, refined warm cream
+          dark: "#231F1B", // primary text color; also usable as a dark section background
+          card: "#FCFAF7", // near-white card surface, distinct from the page background
+          cream: "#F5E3D4", // secondary light surface, cards and alternating sections
+          oxblood: "#8D4A28", // primary accent, refined warm terracotta-brown
+          "oxblood-bright": "#C2542E", // brighter accent tint, used only against the dark background
+          champagne: "#E8C9B8", // secondary/softer accent, badges and small highlights
         },
       },
       keyframes: {
