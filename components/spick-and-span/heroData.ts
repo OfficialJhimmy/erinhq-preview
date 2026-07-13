@@ -18,7 +18,7 @@ export const heroSlides: HeroSlide[] = [
     id: "haircut",
     title: "Haircut Experience",
     category: "Haircuts",
-    image: "/images/spick-and-span/service-haircut.jpg",
+    image: "/images/spick-and-span/category-haircut.jpg",
     alt: "A stylist giving a precision haircut at Spick & Span Beauty Studio",
   },
   {
