@@ -30,7 +30,7 @@ export default function PricingImage({ category }: { category: PriceCategory }) 
       <div className="absolute bottom-6 right-6 flex h-20 w-20 items-center justify-center rounded-full border border-spicknspan-bg/40 bg-spicknspan-dark/30 text-center backdrop-blur-sm">
         <p className="font-spicknspan-display text-[10px] uppercase leading-tight tracking-widest text-spicknspan-bg">
           Rotii
-          <br />&amp;<br />
+          <br />
           Beauty Salon
         </p>
       </div>
