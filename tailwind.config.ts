@@ -25,6 +25,9 @@ const config: Config = {
         // Scoped to Spick & Span.
         "spicknspan-display": ["var(--font-spicknspan-display)", "serif"],
         "spicknspan-sans": ["var(--font-spicknspan-sans)", "sans-serif"],
+        // Scoped to Rotii Salon & Spa.
+        "rotii-display": ["var(--font-rotii-display)", "serif"],
+        "rotii-sans": ["var(--font-rotii-sans)", "sans-serif"],
       },
       colors: {
         // BEYOND Fitness brand palette. Prefixed so it doesn't collide
@@ -64,6 +67,13 @@ const config: Config = {
           oxblood: "#8D4A28", // primary accent, refined warm terracotta-brown
           "oxblood-bright": "#C2542E", // brighter accent tint, used only against the dark background
           champagne: "#E8C9B8", // secondary/softer accent, badges and small highlights
+        },
+        // Rotii Salon & Spa brand palette. Light mode only, no toggle,
+        // per the brief.
+        rotii: {
+          blush: "#FCD3D3", // section tone, soft blush background
+          rosewood: "#BD766D", // primary accent
+          ink: "#2B2222", // primary text, warm near-black rather than flat gray
         },
       },
       keyframes: {
