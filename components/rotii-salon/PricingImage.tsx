@@ -29,9 +29,9 @@ export default function PricingImage({ category }: { category: PriceCategory }) 
       {/* Real brand badge, not the fictional monogram from the reference mockup */}
       <div className="absolute bottom-6 right-6 flex h-20 w-20 items-center justify-center rounded-full border border-spicknspan-bg/40 bg-spicknspan-dark/30 text-center backdrop-blur-sm">
         <p className="font-spicknspan-display text-[10px] uppercase leading-tight tracking-widest text-spicknspan-bg">
-          Spick
+          Rotii
           <br />&amp;<br />
-          Span
+          Beauty Salon
         </p>
       </div>
     </div>

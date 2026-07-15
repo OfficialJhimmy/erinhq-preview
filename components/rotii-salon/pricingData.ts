@@ -27,7 +27,7 @@ export const priceCategories: PriceCategory[] = [
     subtitle: "The Complete Collection",
     badge: "Most Requested",
     image: "/images/rotii-salon/booking-hair.jpg",
-    imageAlt: "A finished luxury hairstyle at Spick & Span Beauty Studio",
+    imageAlt: "A finished luxury hairstyle at Rotii Beauty Studio",
     items: [
       { name: "Classic Blowout", description: "Sleek. Bouncy. Timeless.", duration: "60 mins", price: "₦15,000" },
       { name: "Silk Press", description: "Silky smooth with lasting shine.", duration: "90 mins", price: "₦25,000" },
@@ -44,7 +44,7 @@ export const priceCategories: PriceCategory[] = [
     label: "Nails",
     subtitle: "Hands, Considered",
     image: "/images/rotii-salon/rotti-nails.jpeg",
-    imageAlt: "A luxury manicure close-up at Spick & Span Beauty Studio",
+    imageAlt: "A luxury manicure close-up at Rotii Beauty Studio",
     items: [
       { name: "Classic Manicure", description: "Clean, simple, well done.", duration: "40 mins", price: "₦10,000" },
       { name: "Gel Manicure", description: "Glossy finish that holds.", duration: "50 mins", price: "₦15,000" },
@@ -59,7 +59,7 @@ export const priceCategories: PriceCategory[] = [
     label: "Lashes",
     subtitle: "Framed, Properly",
     image: "/images/spick-and-span/service-lashes.jpg",
-    imageAlt: "A close-up beauty portrait showing finished lash work at Spick & Span Beauty Studio",
+    imageAlt: "A close-up beauty portrait showing finished lash work at Rotii Beauty Studio",
     items: [
       { name: "Classic Lash Set", description: "Natural, everyday definition.", duration: "60 mins", price: "₦20,000" },
       { name: "Hybrid Lash Set", description: "A little more texture, still soft.", duration: "75 mins", price: "₦25,000" },
@@ -73,7 +73,7 @@ export const priceCategories: PriceCategory[] = [
     label: "Massage",
     subtitle: "A Proper Pause",
     image: "/images/spick-and-span/service-massage.jpg",
-    imageAlt: "Spa stones in a massage treatment room at Spick & Span Beauty Studio",
+    imageAlt: "Spa stones in a massage treatment room at Rotii Beauty Studio",
     items: [
       { name: "Swedish Massage", description: "Slow, steady, deeply relaxing.", duration: "60 mins", price: "₦25,000" },
       { name: "Deep Tissue Massage", description: "For the knots that need real work.", duration: "60 mins", price: "₦30,000" },
@@ -87,7 +87,7 @@ export const priceCategories: PriceCategory[] = [
     label: "Pedicure",
     subtitle: "Feet, Properly Cared For",
     image: "/images/spick-and-span/service-pedicure.jpeg",
-    imageAlt: "A luxury foot spa pedicure treatment at Spick & Span Beauty Studio",
+    imageAlt: "A luxury foot spa pedicure treatment at Rotii Beauty Studio",
     items: [
       { name: "Classic Pedicure", description: "Clean, simple, well done.", duration: "40 mins", price: "₦12,000" },
       { name: "Gel Pedicure", description: "Glossy finish that holds.", duration: "50 mins", price: "₦18,000" },
